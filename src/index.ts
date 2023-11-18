@@ -14,7 +14,7 @@ import type {
 import { TxnBuilderTypes, Types } from "aptos";
 
 // CHANGE AptosWindow
-interface AptosWindow extends Window {
+interface Apteryx extends Window {
   aptos?: PluginProvider; // CHANGE aptos key (has to be lowercase exact match and same as the wallet's name prop)
 }
 
@@ -23,7 +23,7 @@ declare const window: AptosWindow; // CHANGE AptosWindow
 export const AptosWalletName = "Aptos" as WalletName<"Aptos">; // CHANGE AptosWalletName, CHANGE "Aptos"
 
 // CHANGE AptosWallet
-export class AptosWallet implements AdapterPlugin {
+export class Apteryx implements AdapterPlugin {
   readonly name = AptosWalletName; // CHANGE AptosWalletName (can have capitalization)
   readonly url = "";// CHANGE url value to your chrome store or other URL
   readonly icon = // CHANGE icon value

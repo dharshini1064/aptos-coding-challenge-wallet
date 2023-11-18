@@ -48,7 +48,7 @@ export class ApteryxWallet implements AdapterPlugin {
   // }
 
   provider: PluginProvider | undefined =
-    typeof window !== "undefined" ? window.aptos : undefined; // CHANGE window.aptos
+    typeof window !== "undefined" ? window.apteryx : undefined; // CHANGE window.aptos
 
   async connect(): Promise<AccountInfo> {
     try {

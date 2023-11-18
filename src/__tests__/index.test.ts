@@ -1,11 +1,11 @@
-import { AptosWallet } from "../index";
+import { apteryxWallet } from "../index";
 
 /*
 Basic tests to make sure basic variables and functions are defined on the wallet
 
 Note: change AptosWallet to match your class name
 */
-describe("AptosWallet", () => {
+describe("ApteryxWallet", () => {
   const wallet = new AptosWallet();
 
   test("defines name", () => {
